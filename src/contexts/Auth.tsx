@@ -1,5 +1,5 @@
 import React, {createContext, useState, useContext, useEffect, ReactNode} from 'react';
-import AsyncStorage from '@react-native-community/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { AuthData, authService } from '../services/authService';
 import { showToastMessage } from '../utils';
 import { STORAGE_AUTH_USER, EMAIL_AUTH_USER, PASSWORD_AUTH_USER } from '../constants';

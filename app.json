@@ -1,4 +1,11 @@
 {
   "name": "readyPlayer",
-  "displayName": "readyPlayer"
+  "displayName": "readyPlayer",
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "0ec38b64-f3ce-4448-b0e2-1ba9a2c990de"
+      }
+    }
+  }
 }
